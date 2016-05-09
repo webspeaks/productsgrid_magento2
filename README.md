@@ -1,4 +1,6 @@
-# productsgrid_magento2
+# Products Grid in Magento 2 Admin Module
+
+![alt tag](http://assets.webspeaks.in/content/uploads/2016/05/Magento2-admin-module-1024x501.png)
 
 This module shows you How to add custom products grid in Magento 2 admin module.
 
