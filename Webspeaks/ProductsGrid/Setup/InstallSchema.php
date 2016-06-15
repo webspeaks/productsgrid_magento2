@@ -49,19 +49,19 @@ class InstallSchema implements InstallSchemaInterface
                 ->addForeignKey(
                     $installer->getFkName(
                         'webspeaks_contact',
-                        'attachment_id',
+                        'contact_id',
                         'webspeaks_product_attachment_rel',
-                        'attachment_id'
+                        'contact_id'
                     ),
-                    'attachment_id',
+                    'contact_id',
                     $installer->getTable('webspeaks_contact'),
-                    'attachment_id',
+                    'contact_id',
                     Table::ACTION_CASCADE
                 )
                 ->addForeignKey(
                     $installer->getFkName(
                         'webspeaks_product_attachment_rel',
-                        'attachment_id',
+                        'contact_id',
                         'catalog_product_entity',
                         'entity_id'
                     ),
