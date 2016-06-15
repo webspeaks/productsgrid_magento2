@@ -114,7 +114,7 @@
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="selectProvider" xsi:type="string">ws_contacts_listing.ws_contacts_listing.contacts_grid_columns.ids</item>
-                    <item name="indexField" xsi:type="string">attachment_id</item>
+                    <item name="indexField" xsi:type="string">contact_id</item>
                 </item>
             </argument>
             <action name="delete">
